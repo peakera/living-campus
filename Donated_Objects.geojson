@@ -17,8 +17,7 @@
         "dedi_ID": "Mary E. Daubenspeck",
         "Inscription": "",
         "Lat": 40.025603,
-        "Long": -75.312917,
-        "img_src": ""
+        "Long": -75.312917
       },
       "geometry": {
         "type": "Point",
@@ -37,8 +36,7 @@
         "dedi_ID": "Anne Leigh Hobson Broughton '30, MA '36",
         "Inscription": "Gates given in honor of / Anne Leigh Hobson Broughton '30, MA '36 / Director of Admissions 1943-1965",
         "Lat": 40.024166,
-        "Long": -75.313455,
-        "img_src": ""
+        "Long": -75.313455
       },
       "geometry": {
         "type": "Point",
@@ -57,8 +55,7 @@
         "dedi_ID": "Jenepher P. Shillingford",
         "Inscription": "Shillingford Field / Named in honor of / Jenepher P. Shillingford / for her contributions as field hockey coach / and director of athletics & physical education / for over twenty years / October 25, 1998  ",
         "Lat": 40.028535,
-        "Long": -75.315949,
-        "img_src": ""
+        "Long": -75.315949
       },
       "geometry": {
         "type": "Point",
@@ -405,8 +402,7 @@
         "dedi_ID": "Elsie Campbell Sinclair Hodge",
         "Inscription": "In Memoriam Elsie Campbell Sinclair Hodge, AB 1897 / Born Dec 15 1874 Died in the Massacre of Christians at Paotingfu China June 1900",
         "Lat": 40.027588,
-        "Long": -75.312281,
-        "img_src": ""
+        "Long": -75.312281
       },
       "geometry": {
         "type": "Point",
@@ -444,8 +440,7 @@
         "dedi_ID": "Class of 1964 40th Reunion",
         "Inscription": "",
         "Lat": 40.028884,
-        "Long": -75.316277,
-        "img_src": ""
+        "Long": -75.316277
       },
       "geometry": {
         "type": "Point",
@@ -484,8 +479,7 @@
         "dedi_ID": "Gayle Furtney '76",
         "Inscription": "In Loving Memory of Gayle Furtney / Class of 1976",
         "Lat": 40.028924,
-        "Long": -75.315115,
-        "img_src": ""
+        "Long": -75.315115
       },
       "geometry": {
         "type": "Point",
@@ -523,8 +517,7 @@
         "dedi_ID": "Professor Machteld J. Mellink",
         "Inscription": "In honor of Professor Machteld J. Mellink",
         "Lat": 40.028353,
-        "Long": -75.31539,
-        "img_src": ""
+        "Long": -75.31539
       },
       "geometry": {
         "type": "Point",
@@ -562,8 +555,7 @@
         "dedi_ID": "Alice Long Goldsmith '26",
         "Inscription": "",
         "Lat": 0,
-        "Long": 0,
-        "img_src": ""
+        "Long": 0
       },
       "geometry": {
         "type": "Point",
@@ -602,8 +594,7 @@
         "dedi_ID": "Clarissa Wardwell Pell '30",
         "Inscription": "Clarissa Wardwell Pell '30",
         "Lat": 0,
-        "Long": 0,
-        "img_src": ""
+        "Long": 0
       },
       "geometry": {
         "type": "Point",
@@ -839,8 +830,7 @@
         "dedi_ID": "Stephanie Newman '89",
         "Inscription": "In Memory of Stephanie Newman '89",
         "Lat": 0,
-        "Long": 0,
-        "img_src": ""
+        "Long": 0
       },
       "geometry": {
         "type": "Point",
