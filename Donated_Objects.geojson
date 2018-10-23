@@ -37,7 +37,8 @@
         "dedi_ID": "Anne Leigh Hobson Broughton '30, MA '36",
         "Inscription": "Gates given in honor of / Anne Leigh Hobson Broughton '30, MA '36 / Director of Admissions 1943-1965",
         "Lat": 40.024166,
-        "Long": -75.313455
+        "Long": -75.313455,
+        "img_src": ""
       },
       "geometry": {
         "type": "Point",
@@ -56,7 +57,8 @@
         "dedi_ID": "Jenepher P. Shillingford",
         "Inscription": "Shillingford Field / Named in honor of / Jenepher P. Shillingford / for her contributions as field hockey coach / and director of athletics & physical education / for over twenty years / October 25, 1998  ",
         "Lat": 40.028535,
-        "Long": -75.315949
+        "Long": -75.315949,
+        "img_src": ""
       },
       "geometry": {
         "type": "Point",
