@@ -50,7 +50,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  [ 0.0,0.0 ]
     },
     "properties": {
     "obj_ID":3,
@@ -140,7 +140,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  [ 0.0,0.0 ]
     },
     "properties": {
     "obj_ID":9,
@@ -200,7 +200,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  [ 0.0,0.0 ]
     },
     "properties": {
     "obj_ID":13,
@@ -215,7 +215,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  [ 0.0,0.0 ]
     },
     "properties": {
     "obj_ID":14,
@@ -260,7 +260,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  [ 0.0,0.0 ]
     },
     "properties": {
     "obj_ID":17,
@@ -320,7 +320,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  [ 0.0,0.0 ]
     },
     "properties": {
     "obj_ID":21,
@@ -380,7 +380,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  [ 0.0,0.0 ]
     },
     "properties": {
     "obj_ID":25,
@@ -425,7 +425,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  [ 0.0,0.0 ]
     },
     "properties": {
     "obj_ID":28,
@@ -455,7 +455,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  [ 0.0,0.0 ]
     },
     "properties": {
     "obj_ID":30,
@@ -470,7 +470,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  [ 0.0,0.0 ]
     },
     "properties": {
     "obj_ID":31,
@@ -560,7 +560,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  [ 0.0,0.0 ]
     },
     "properties": {
     "obj_ID":37,
@@ -575,7 +575,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  [ 0.0,0.0 ]
     },
     "properties": {
     "obj_ID":38,
@@ -605,7 +605,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  [ 0.0,0.0 ]
     },
     "properties": {
     "obj_ID":40,
@@ -635,7 +635,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  [ 0.0,0.0 ]
     },
     "properties": {
     "obj_ID":42,
@@ -710,7 +710,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  [ 0.0,0.0 ]
     },
     "properties": {
     "obj_ID":47,
@@ -755,7 +755,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  [ 0.0,0.0 ]
     },
     "properties": {
     "obj_ID":50,
@@ -785,7 +785,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  [ 0.0,0.0 ]
     },
     "properties": {
     "obj_ID":52,
@@ -800,7 +800,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  [ 0.0,0.0 ]
     },
     "properties": {
     "obj_ID":53,
@@ -815,7 +815,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  [ 0.0,0.0 ]
     },
     "properties": {
     "obj_ID":54,
