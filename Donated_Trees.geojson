@@ -20,7 +20,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":102,
@@ -50,7 +50,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":104,
@@ -65,7 +65,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":105,
@@ -95,7 +95,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":107,
@@ -110,7 +110,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":108,
@@ -125,7 +125,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":109,
@@ -140,7 +140,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":110,
@@ -155,7 +155,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":111,
@@ -170,7 +170,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":112,
@@ -185,7 +185,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":113,
@@ -215,7 +215,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":115,
@@ -230,7 +230,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":116,
@@ -290,7 +290,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":120,
@@ -350,7 +350,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":124,
@@ -365,7 +365,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":125,
@@ -380,7 +380,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":126,
@@ -410,7 +410,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":128,
@@ -440,7 +440,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":130,
@@ -470,7 +470,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":132,
@@ -515,7 +515,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":135,
@@ -530,7 +530,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":136,
@@ -545,7 +545,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":137,
@@ -560,7 +560,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":138,
@@ -575,7 +575,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  { }
+       "coordinates":  ""
     },
     "properties": {
     "TREE_ID":141,
