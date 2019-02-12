@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Living Campus</title>
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/src/leaflet-search.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/src/leaflet-search.mobile.min.css">
+   <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+   crossorigin=""></script>
+   <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/src/leaflet-search.min.js"></script>
+   <style type="text/css">
+   		#livingcampus {
+   			height: 1000px;
+   		}
+   		.tooltip-img {
+		  max-width: 200px;
+		  max-height: 200px;
+		  display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		}
+   </style>
+</head>
+<body>
+	<div id="livingcampus"></div>
+	<script type="text/javascript">
+			var donatedObjects = $.ajax({
+			url:"https://raw.githubusercontent.com/peakera/living-campus/master/Donated_Objects.geojson",
+			dataType: "json",
+			success:console.log("Donated object data successfully loaded!"),
+			error: function (xhr) {
+				alert(xhr.statusText)
+			}
+		})
+
+		var donatedTrees = $.ajax({
+			url:"https://raw.githubusercontent.com/peakera/living-campus/master/trees_img.geojson",
+			dataType: "json",
+			success:console.log("Tree data successfully loaded!"),
+			error: function (xhr) {
+				alert(xhr.statusText)
+			} 
+		}); //console.log(donatedTrees)
+
+		$.when(donatedObjects).done(function() {
+		 	$.when(donatedTrees).done(function() {
+
+		var mymap = L.map('livingcampus').setView([40.027, -75.315], 16);
+		L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    	maxZoom: 20,
+    	id: 'mapbox.streets',
+    	accessToken: 'pk.eyJ1IjoiYXBlYWtlciIsImEiOiJjamxxdDBzYXoyam52M3B0NXJzazZ3b3Y2In0.0Pd_m3s30duVpgLPy4foqA'
+		}).addTo(mymap);
+
+		var objIcon = L.icon({
+				iconUrl: 'https://digitalscholarship.brynmawr.edu/livingcampus/lantern_0.jpg',
+				iconSize:     [30, 30], // size of the icon
+	    		iconAnchor:   [15, 0], // point of the icon which will correspond to marker's location
+	    		popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
+			});
+
+		var treeIcon = L.icon({
+				iconUrl: 'https://digitalscholarship.brynmawr.edu/livingcampus/tree_icon.png',
+				iconSize: [30, 30],
+				iconAnchor: [15, 15],
+				popupAnchor: [0, 0]
+			});
+
+		var donatedObjectsLayer = L.geoJSON(donatedObjects.responseJSON,
+			{onEachFeature: function(feature, layer){
+				layer.bindPopup('<img class ="tooltip-img" src = "https://digitalscholarship.brynmawr.edu/livingcampus/img/' + feature.properties.img_src + '" >' + '<h1>Dedicated to '+feature.properties.dedi_ID+'</h1><h2>Given by ' + feature.properties.donor_ID+'</h2>'  + feature.geometry.coordinates),
+				layer.setIcon(objIcon)
+			}}).addTo(mymap);
+
+		var donatedTreesLayer = L.geoJSON(donatedTrees.responseJSON,
+			{onEachFeature: function(feature, layer){
+				layer.bindPopup('<img class ="tooltip-img" src = "https://digitalscholarship.brynmawr.edu/livingcampus/img/' + feature.properties.img_src + '" ><h1>'+feature.properties.TREE_SP+'</h1><h2>Dedicated to '+feature.properties.DEDI_ID+'</h2><h2>Given by '+feature.properties.DONOR_ID+'</h2>'),
+				layer.setIcon(treeIcon)
+			}}).addTo(mymap);
+
+
+
+		var overlayMaps = {
+			"Objects": donatedObjectsLayer,
+			"Trees": donatedTreesLayer
+		}
+		
+		L.control.layers(null, overlayMaps).addTo(mymap);
+
+		// var searchLayer = L.layerGroup().addTo(mymap);
+		// mymap.addControl( new L.Control.Search({layer: searchLayer}))
+
+	});
+});
+	</script>
+</body>
+</html>
